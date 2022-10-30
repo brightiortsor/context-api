@@ -1,0 +1,231 @@
+* {
+  background-color: rgb(17, 22, 65);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 1.5rem 0;
+}
+
+.nav-link {
+  color: antiquewhite;
+  text-decoration: none;
+  border: 1px solid rgb(51, 64, 182);
+  background: rgb(6, 11, 58);
+  padding: 3px 10px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  color: rgb(170, 157, 157);
+}
+
+/* Home Page */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.home-cont {
+  background: rgb(36, 46, 133);
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid rgb(51, 64, 182);
+  box-shadow: 10px 20px 25px 10px;
+}
+
+.home-cont h1 {
+  background: transparent;
+  text-align: center;
+  font-size: x-large;
+  color: gray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.home-cont h2,
+p {
+  background-color: transparent;
+  margin: 5px;
+  text-align: justify;
+  color: antiquewhite;
+}
+
+.home-cont h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.home-p {
+  background-color: transparent;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin-top: 2rem;
+}
+
+/* Link Button */
+.btn {
+  text-decoration: none;
+  margin: 4px;
+  color: antiquewhite;
+  text-decoration: none;
+  border: 2px solid rgb(51, 64, 182);
+  background: rgb(24, 30, 90);
+  padding: 3px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(20, 23, 53);
+  transition: 1s;
+}
+.home-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(36, 46, 133);
+  margin: 3rem;
+}
+
+/* About Page Btn */
+.about-btn {
+  margin: 10% 2px;
+  background-color: transparent;
+}
+
+/* Error Page */
+.error {
+  background: rgb(36, 46, 133);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-img {
+  width: 250px;
+  height: auto;
+}
+
+.error-btn {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.home-cont h3 {
+  background-color: transparent;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 24px;
+  margin-top: 1rem;
+}
+
+/* Login Page */
+.login {
+  background: transparent;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.form-field > input,
+label {
+  width: 60%;
+  background-color: transparent;
+}
+
+.form-field > input {
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid rgb(51, 59, 146);
+  background-color: rgb(30, 41, 139);
+  color: #fff;
+  border-radius: 6px;
+}
+
+.form-field label {
+  color: rgb(189, 183, 183);
+  font-size: 20px;
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.login-btn {
+  text-decoration: none;
+  margin: 10px;
+  color: rgb(189, 183, 183);
+  text-decoration: none;
+  border: 2px solid rgb(51, 64, 182);
+  background: rgb(24, 30, 90);
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: rgb(20, 23, 53);
+  transition: 1s;
+}
+
+.login h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(170, 157, 157);
+}
+.login-div {
+  background: transparent;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  color: rgb(22, 19, 19);
+}
+
+.login-link {
+  background: transparent;
+  padding: 2px;
+  color: rgb(24, 5, 128);
+  font-size: 20px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .img {
+    width: 100%;
+    height: auto;
+  }
+
+  .login-div {
+    background: transparent;
+    margin-top: 5%;
+    font-size: 14px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+    color: rgb(22, 19, 19);
+  }
+
+  .login-link {
+    background: transparent;
+    padding: 2px;
+    color: rgb(24, 5, 128);
+    font-size: 16px;
+  }
+}
