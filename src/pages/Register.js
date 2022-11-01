@@ -5,19 +5,22 @@ const Register = () => {
     <div className="home">
       <div className="home-cont">
         <div className="login">
-          <h1>Create Account</h1>
+          <h2 className="header">Create Account</h2>
           <form className="form-field">
             <label htmlFor="fname">Full Name</label>
-            <input type="text" placeholder="Enter full name..." />
+            <input type="text" placeholder="enter full name" />
 
             <label htmlFor="email">Email</label>
-            <input type="email" placeholder="Example@mail.com" />
+            <input type="email" placeholder="example@mail.com" />
 
             <label htmlFor="phone">Phone</label>
             <input type="tel" placeholder="2348033334444" />
 
             <label htmlFor="password">Choose Password</label>
-            <input type="password" placeholder="Choose password..." />
+            <input type="password" placeholder="**********" />
+
+            <label htmlFor="password">Confirm Password</label>
+            <input type="password" placeholder="**********" />
 
             <button className="login-btn">Register</button>
           </form>

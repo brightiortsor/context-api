@@ -14,7 +14,7 @@ const Home = () => {
           to test FakeUserAuthentication
         </p>
         <div className="home-img">
-          <img src={HomeImg} alt=""  className="img"/>
+          <img src={HomeImg} alt="" className="img" />
         </div>
       </div>
     </div>
