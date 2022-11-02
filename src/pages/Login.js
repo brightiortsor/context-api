@@ -23,6 +23,7 @@ class ErrorBoundary extends React.Component {
 }
 
 const Login = () => {
+  // eslint-disable-next-line no-unused-vars
   const { setAuth } = useContext(userAuthContext);
   const [user, setUser] = useState("");
   const [pwd, setPwd] = useState("");
