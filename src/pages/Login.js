@@ -10,13 +10,11 @@ class ErrorBoundary extends React.Component {
   }
 
   static getDerivedStateFromError(error) {
-    // Update state so the next render will show the fallback UI.
     return { hasError: true };
   }
 
   render() {
     if (this.state.hasError) {
-      // You can render any custom fallback UI
       return <h1>Something went wrong.</h1>;
     }
 
@@ -41,12 +39,12 @@ const Login = () => {
       <ErrorBoundary>
         {success ? (
           <section>
-            <h2>
-              You are logged in as, <span className="user-span">{user}</span>
-            </h2>
+            <h3 className="success">
+              You are logged in as, <span className="user-span">{user}</span>.
+            </h3>
             <br />
             <p>
-              <Link to="/">Go Home</Link>
+              <Link to="/">Continue Browsing</Link>
             </p>
           </section>
         ) : (

@@ -1,7 +1,17 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+
 const About = () => {
   return (
     <div className="home">
+      <Helmet>
+        <title>About user Authentication</title>
+        <meta
+          name="description"
+          content="This project requires setting up react-router to test fake user authentication with react context api"
+        />
+        <link rel="canonical" href="/about" />
+      </Helmet>
       <div className="home-cont">
         <h1>About this Assignment</h1>
 
