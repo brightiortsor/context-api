@@ -56,11 +56,12 @@ const Login = () => {
                 id="username"
                 placeholder="Enter Username"
                 autoComplete="off"
-                autoCapitalize="words"
                 onChange={(e) => setUser(e.target.value)}
                 value={user}
+                pattern="^[A-Za-z0-9]{4,10}$"
                 required
               />
+
               <label>Password</label>
               <input
                 type="password"
